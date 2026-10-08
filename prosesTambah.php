@@ -25,7 +25,7 @@ if (move_uploaded_file($tmpName, $folderTujuan)) {
         "tanggal" => $tanggal,
         "kategori" => $kategori,
         "harga" => $harga,
-        "gambar" => $folderTujuan
+        "bukti" => $folderTujuan
     ];
 
     header("Location: dashboard.php");
